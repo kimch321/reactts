@@ -5,13 +5,15 @@ import AppXY from './AppXY';
 import reportWebVitals from './reportWebVitals';
 import AppMentor from "./AppMentor";
 import AppMentors from "./AppMentors";
+import AppForm from "./AppForm";
+import AppWrap from "./AppWrap";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <AppMentors />
+    <AppWrap />
   </React.StrictMode>
 );
 

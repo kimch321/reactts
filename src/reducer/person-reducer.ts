@@ -42,7 +42,7 @@ export default function personReducer(person: Person, action: Action): Person {
             }
         }
         default: {
-            throw new Error(`알수없는 액션 타입입니다: ${action.type}`);
+            throw new Error(`알수없는 액션 타입입니다`);
         }
     }
 }
