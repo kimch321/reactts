@@ -8,13 +8,14 @@ import AppMentors from "./AppMentors";
 import AppForm from "./AppForm";
 import AppWrap from "./AppWrap";
 import AppTheme from "./AppTheme";
+import AppMentorsButton from "./AppMentorsButton";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <AppTheme />
+    <AppMentorsButton />
   </React.StrictMode>
 );
 

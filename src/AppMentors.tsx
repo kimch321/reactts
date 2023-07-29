@@ -1,6 +1,6 @@
-import React, {useReducer, useState} from 'react';
+import React, {useReducer} from 'react';
 import personReducer from "./reducer/person-reducer";
-import {Person, Mentor} from "./type"
+import {Person} from "./type"
 
 export default function AppMentor() {
     // const [person, setPerson] = useState<Person>(initialPerson);
